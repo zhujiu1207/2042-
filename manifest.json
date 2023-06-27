@@ -1,9 +1,9 @@
 {
-  "id": "bf2042-portal-navigation-plugin",
+  "id": "战地2042定位菜单插件",
   "name": "Navigation Helper Plugin",
   "version": "1.1.1",
-  "homepage": "https://the0zzy.github.io/bf2042-portal-navigation-plugin/",
-  "description": "Extends the navigation features of the rules editor",
-  "author": "TheOzzy",
+  "homepage": "https://zhujiu1207.github.io/2042-/manifest.json",
+  "description": "添加跳转定位模块功能",
+  "author": "zhujiu1207",
   "main": "index.js"
 }
