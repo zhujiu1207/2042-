@@ -23,7 +23,7 @@
   function buildJumpToMenu() {
     let jumpToMenu = plugin.createMenu(
       "jumpToMenu",
-      "Jump To",
+      "定位模块菜单选项",
       _Blockly.ContextMenuRegistry.ScopeType.WORKSPACE
     );
     plugin.registerMenu(jumpToMenu);
@@ -47,7 +47,7 @@
     let blockIndex = 1;
     modBlocks.forEach((block) => {
       let blockItem = {
-        displayText: blockIndex + " Mod",
+        displayText: blockIndex + " Mod块",
         preconditionFn: () => "enabled",
         callback: () => {
           jumpTo(block);
@@ -65,7 +65,7 @@
     if (ruleBlocks.length > 0) {
       let rulesMenu = plugin.createMenu(
         "rulesMenu",
-        "Rules",
+        "规则块选项菜单",
         _Blockly.ContextMenuRegistry.ScopeType.WORKSPACE
       );
       plugin.registerMenu(rulesMenu);
@@ -92,7 +92,7 @@
     if (subroutines.length > 0) {
       let subroutinesMenu = plugin.createMenu(
         "subroutineMenu",
-        "Subroutines",
+        "子程序选项菜单",
         _Blockly.ContextMenuRegistry.ScopeType.WORKSPACE
       );
       plugin.registerMenu(subroutinesMenu);
@@ -148,7 +148,7 @@
   }
 
   const toggleScrollItem = {
-    displayText: "Toggle Scroll Workspace",
+    displayText: "切换滚动工作模式",
     preconditionFn: () => "enabled",
     callback: toggleScrollableWorkspace,
     scopeType: _Blockly.ContextMenuRegistry.ScopeType.WORKSPACE,
