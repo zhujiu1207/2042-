@@ -148,7 +148,7 @@
   }
 
   const toggleScrollItem = {
-    displayText: "切换滚动工作模式",
+    displayText: "切换鼠标滚轮(缩放/上下滚动)",
     preconditionFn: () => "enabled",
     callback: toggleScrollableWorkspace,
     scopeType: _Blockly.ContextMenuRegistry.ScopeType.WORKSPACE,
