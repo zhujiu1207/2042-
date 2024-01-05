@@ -1,9 +1,9 @@
 {
   "id": "bf2042-portal-navigation-plugin",
-  "name": "Navigation Helper Plugin",
+  "name": "模块定位功能",
   "version": "1.1.1",
   "homepage": "https://zhujiu1207.github.io/2042-/manifest.json",
-  "description": "添加跳转定位模块功能",
+  "description": "对编辑器添加定位模块位置功能",
   "author": "zhujiu1207",
   "main": "index.js"
 }
